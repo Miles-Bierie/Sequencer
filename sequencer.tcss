@@ -1,0 +1,82 @@
+Screen {
+    layers: sidebar top;
+}
+
+Sidebar_Open {
+    align: left top;
+    width: 10;
+}
+
+Sidebar {
+    width: 30;
+    height: 100%;
+    margin-top: 1;
+    dock: left;
+    background: $boost;
+    layer: sidebar;
+}
+
+Button {
+    text-style: none;
+}
+
+Footer {
+    layer: top;
+}
+
+#sidebarB {
+    max-width: 5;
+}
+
+#labelButton {
+    color: rgb(65, 123, 174);
+    background: rgb(44, 44, 44);
+}
+
+#sidebarB Button {
+    height: 100%;
+    max-width: 5;
+}
+
+#sidebarClose {
+    height: 100%;
+    max-width: 5;
+    dock: right;
+    color: rgb(65, 123, 174);
+}
+
+#header {
+    align: center top;
+    text-align: center;
+    background: rgb(41, 41, 42);
+    color: lightgray;
+
+}
+
+#mainScreen {
+    align: center middle;
+    width: 70;
+    height: 7;
+}
+
+.center {
+    align: center middle;
+}
+
+#vts_grid {
+    grid-size: 2 2;
+    margin-left: 20;
+}
+
+.defButton {
+    margin: 1;
+    color: green;
+}
+
+.-hidden {
+    display: none;
+}
+
+.border {
+    border: blue;
+}
